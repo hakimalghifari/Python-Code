@@ -1,4 +1,4 @@
 x=5
 y="Hello World!"
-print("x = " , 5)
+print("x = " , x)
 print(y)
