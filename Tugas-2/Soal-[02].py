@@ -1,7 +1,7 @@
 daftar_nama = []
 daftar_nomor= []
 print("Selamat datang! ")
-print("   ")
+print("    ")
 NomorMenu=1
 while NomorMenu!=3:
     print("------Menu------")
