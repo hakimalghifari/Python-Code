@@ -3,7 +3,7 @@ daftar_nomor= []
 print("Selamat datang! ")
 print("   ")
 NomorMenu=1
-while NomorMenu<3:
+while NomorMenu!=3:
     print("------Menu------")
     print("1. Daftar Kontak")
     print("2. Tambah Kontak")
