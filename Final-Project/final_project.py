@@ -39,5 +39,4 @@ server.starttls()
 server.login(email_user, email_password)
 server.sendmail(email_user, email_send, text)
 print("email berhasil dikirim!")
-
 server.quit()
