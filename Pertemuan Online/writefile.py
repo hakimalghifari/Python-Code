@@ -1,4 +1,4 @@
-f= open ("file.txt", "w")
+f= open ("receiver_list.txt", "w")
 
 f.write("Hakimmmm")
 
