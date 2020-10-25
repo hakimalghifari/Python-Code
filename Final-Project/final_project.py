@@ -8,8 +8,15 @@ from email import encoders
 
 email_user = input ("Masukkan email pengguna : ")
 email_password = input("Masukkan Password : ") 
-email_send=input("Masukkan email tujuan: ")
-           
+email_send = input("Masukkan email tujuan : ")
+
+"""
+email_send = []
+send = str(open("receiver_list.txt", "r", encoding='utf-8'))
+for x in range(len(send)):                                        #error
+  email_send.append(x)
+"""
+
 subject = input ("Subject email : ") 
 
 msg = MIMEMultipart()
@@ -20,8 +27,9 @@ msg['Subject'] = subject
 body = input("Isi pesan email : ")  
 msg.attach(MIMEText (body,'plain'))
 
-tambahan = int(input("Pilih 1 jika ingin attach file atau pilih 0 jika tidak : "))
 
+
+tambahan = int(input("Pilih 1 jika ingin attach file atau pilih 0 jika tidak : "))
 if tambahan ==0:
   print("Tidak memilih attachment")
 
