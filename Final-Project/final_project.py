@@ -17,13 +17,14 @@ msg['From'] =  email_user
 msg['To'] = email_send
 msg['Subject'] = subject
 
+body = input("Isi pesan email : ")  
+msg.attach(MIMEText (body,'plain'))
 
 tambahan = int(input("Pilih 1 jika ingin attach file atau pilih 0 jika tidak : "))
 
 if tambahan ==0:
   print("Tidak memilih attachment")
-  body = input("Isi pesan email : ")  
-  msg.attach(MIMEText (body,'plain'))
+
 elif tambahan ==1: 
   filename = input("Masukkan nama file beserta formatnya : ")  #seperti gambar.jpg atau document.txt
   attachment = open(filename, 'rb')
