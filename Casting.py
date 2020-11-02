@@ -1,4 +1,4 @@
-#Float ke Integer
+#Float to Integer
 x=1.5
 print(x)
 print(type(x))
@@ -7,7 +7,7 @@ y=int(x)
 print(y)
 print(type(y))
 
-#Integer ke Float
+#Integer to Float
 a=100
 print(a)
 print(type(a))
@@ -16,7 +16,7 @@ b=(float(a))
 print(b)
 print(type(b))
 
-#String ke Float
+#String to Float
 x="4.5"
 print(x)
 print(type(x))
@@ -25,7 +25,7 @@ y=float(x)
 print(y)
 print(type(y))
 
-#Float ke String
+#Float to String
 x=9.98
 print(x)
 print(type(x))

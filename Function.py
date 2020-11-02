@@ -3,23 +3,23 @@ def myfunction():
 
 myfunction()
 
-#Dengan Argumen contoh1
-def myFunction(nama):
-    print("Hello {}". format(nama))
+#Ex1
+def myFunction(name):
+    print("Hello {}". format(name))
 
 myFunction("Hakim")
 myFunction("Alghi")
 myFunction("Fari")
 
-#Dengan Argumen contoh2
-def my_function(namapertama, namaakhir):
-    print("Hello {} {}". format(namapertama, namaakhir))
+#Ex2
+def my_function(firstname, lastname):
+    print("Hello {} {}". format(firstname, lastname))
 
 my_function("Hakim", "al ghifari")
 my_function("Alghi", "el brochimieus")
 my_function("Fari", "no partiro")
 
-#Dengan Argumen contoh3
+#Ex3
 def my_Function(namapertamaa, namaakhirr=" "):
     print("Hello {} {}". format(namapertamaa, namaakhirr))
 

@@ -5,7 +5,7 @@ print(i)
 
 print("done!")
 
-#text = input ("Ketik stop untuk berhenti, ")
+#text = input ("write stop to break")
 #while True:
 #    if text == "stop":
 #        break

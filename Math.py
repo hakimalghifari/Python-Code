@@ -1,20 +1,20 @@
 x=3
 y=5
 
-#tambah
+#accretion
 print(x+y)
 
-#Kurang
+#Substraction
 print(x-y)
 
-#Kali
+#multiplication
 print(x*y)
 
-#Bagi
+#divide
 print(x//y)
 
 #Modulo
 print(x % y)
 
-#Pangkat
+#Power
 print(x ** y)
